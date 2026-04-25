@@ -1,9 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Bash(grep -v \"^$\")",
-      "Bash(python3 -c ' *)",
-      "Bash(python3 -c \" import json with open\\('/Users/brian/Desktop/Final-CS 372/finalproject_clean.ipynb'\\) as f: nb = json.load\\(f\\) for i, cell in enumerate\\(nb['cells']\\): src = ''.join\\(cell['source']\\) if 'class_names' in src and \\('==' in src or 'json' in src.lower\\(\\) or 'label' in src.lower\\(\\) or 'classes' in src.lower\\(\\)\\): print\\(f'=== Cell {i} ==='\\) print\\(src[:800]\\) print\\(\\) if 'RESNET_PATH' in src or 'EFFICIENTNET_PATH' in src: print\\(f'=== Cell {i} \\(paths\\) ==='\\) print\\(src[:500]\\) print\\(\\) \")"
-    ]
-  }
-}
