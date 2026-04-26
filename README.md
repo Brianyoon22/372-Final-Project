@@ -4,7 +4,7 @@ A deep learning project that classifies images across 100 sports categories usin
 
 ## What it Does
 
-This project fine-tunes deep learning models to classify images across 100 sports categories, achieving up to 97.4% test accuracy. Given any image of a sporting event or athlete, the model predicts which sport is being depicted — from archery to water polo — and returns the top 5 most likely categories with confidence scores. The project compares two pretrained CNN architectures (EfficientNet-B0 and ResNet50), applies data augmentation and regularization to improve generalization, performs error analysis to understand failure cases, and deploys the best model as an interactive web application where anyone can upload a sports photo and get an instant prediction.
+This project fine-tunes deep learning models to classify images across 100 sports categories, achieving up to 97.4% test accuracy. Given any image of a sporting event or athlete, the model predicts which sport is being depicted — from archery to water polo — and returns the top 5 most likely categories with confidence scores. The project compares two pretrained CNN architectures (EfficientNet-B0 and ResNet50), applies data augmentation and regularization to improve generalization, performs error analysis to understand failure cases, and deploys the best model as an interactive web application where anyone can upload a sports photo and get an instant prediction. This kind of fine-grained sports image classifier has real-world utility for applications like automated sports media tagging, athlete performance databases, and broadcast highlight categorization, where manually labeling millions of images across dozens of sports would be prohibitively expensive.
 
 ## Quick Start
 
