@@ -5,9 +5,8 @@ import gradio as gr
 from torchvision import transforms
 from huggingface_hub import hf_hub_download
 
-# Download model from HF Hub (set your repo ID below)
 HF_REPO_ID = "YOUR_HF_USERNAME/sports-classifier"  # <-- update this
-MODEL_FILE  = "best_resnet.pth"
+MODEL_FILE  = "best_model.pth"
 
 model_path = hf_hub_download(repo_id=HF_REPO_ID, filename=MODEL_FILE)
 
@@ -15,7 +14,7 @@ with open("classes.json") as f:
     class_names = json.load(f)
 
 device = torch.device("cpu")
-model = timm.create_model("resnet50", pretrained=False, num_classes=100)
+model = timm.create_model("efficientnet_b0", pretrained=False, num_classes=100)
 model.load_state_dict(torch.load(model_path, map_location=device))
 model.eval()
 
