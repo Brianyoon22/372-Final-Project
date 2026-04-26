@@ -42,9 +42,9 @@ Run all cells in order from top to bottom. The notebook will:
 
 When the final cell runs, Colab will print a public URL like:
 ```
-Running on public URL: https://xxxxxxxx.gradio.live
+Running on public URL: https://12148fc395b8196bf9.gradio.live/
 ```
-Open that URL in any browser to use the sports classifier. Upload any sports image and the model will return the top 5 predicted sports with confidence scores.
+Open that URL in any browser to use the sports classifier. Upload any sports image and the model will return the top 5 predicted sports with confidence scores. This specific link will only work until Sunday May 3rd 2026.
 
 ## Troubleshooting
 
