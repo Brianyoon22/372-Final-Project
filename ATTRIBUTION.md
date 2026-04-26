@@ -34,4 +34,4 @@
 
 ## AI Development Tools
 
-This project was developed with  assistance from **Claude (Anthropic)** via claude.ai. It was used mainly for debugging purposes.
+This project was developed with  assistance from **Claude (Anthropic)** via claude.ai. Claude was used to debug a DataLoader error and a Gradio compatibility issue.
