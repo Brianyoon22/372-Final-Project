@@ -20,8 +20,8 @@ See [SETUP.md](SETUP.md) for detailed setup and troubleshooting instructions.
 
 ## Video Links
 
-- **Demo Video:** [https://duke.box.com/s/lyp2cnoj8i1820e96wbszl86rofboqg6]
-- **Technical Walkthrough:** [https://duke.box.com/s/le9a0c8cwoj0dgdqgoadjpnq85769qdp]
+- **Demo Video:** https://duke.box.com/s/lyp2cnoj8i1820e96wbszl86rofboqg6
+- **Technical Walkthrough:** https://duke.box.com/s/le9a0c8cwoj0dgdqgoadjpnq85769qdp
 
 ## Evaluation
 
